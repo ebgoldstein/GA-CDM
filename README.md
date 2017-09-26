@@ -1,4 +1,4 @@
-# Genetic Algorithm — CDM tuing routine
+# Genetic Algorithm — CDM tuning routine
 
 This is bunch of codes is used to tune the Coastal Dune Model — specifically CDM-L, avaialble here:  https://github.com/ebgoldstein/Coastal-Dune-Model-Lateral, which is a variant of CDM v2.0 (https://github.com/csdms-contrib/Coastal-Dune-Model). 
 
