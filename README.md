@@ -6,7 +6,9 @@ All Genetic Algorithms require a fitness function. The fitness funciton used her
 
 To make this algorithm work, there are 2 additional components needed:
   1. compile CDM in the CDM folder
-  2. Download the Kroon and Slump algorithm and place the files in the 'demon_reg' folder
+  2. Download the Kroon and Slump algorithm and place the files in a folder entitled 'demon_reg' (within this directory).
+  
+The Scirpt to operate the code is 'CDMGA.m', and the actual function to be optimized (which runs CDM and computes the error) is 'CDMfunction.m'
   
 The 3 sets of topo and vegetation data (April, September and November, all 2016) are rescaled to 1m x 1m domains from 3 point cloud files derived from Kite-based structure from motion photogrammetry at Fort Fisher State Recreation Area, NC,USA. 
 
