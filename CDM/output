@@ -1,0 +1,821 @@
+Running on Evans-MacBook-Air.local, machine type x86_64, with process id 22185
+Thu Sep  7 12:41:25 2017
+
+dunepar::scan: Reading parameter file `param.par'...
+dunepar: Read parameter Nt0 = 0
+dunepar: Using default parameter time0 = 0
+dunepar: Read parameter dx = 1
+dunepar: Read parameter NX = 128
+dunepar: Read parameter NY = 64
+dunepar: Using default parameter hlr.z0 = 0.001
+dunepar: Using default parameter aval.angle_repose_stat = 34
+dunepar: Using default parameter aval.angle_repose_dyn = 33
+dunepar: Read parameter calc.x_periodic = 0
+dunepar: Read parameter calc.y_periodic = 1
+dunepar: Using default parameter msg = 0
+dunepar: Using default parameter timing = 0
+dunepar: Using default parameter fluid_density = 1.225
+dunepar: Using default parameter grain_density = 2650
+dunepar: Using default parameter packing = 0.6226
+dunepar: Read parameter shore.MHWL = 0
+dunepar: Using default parameter shore.sealevel = 0
+dunepar: Using default parameter beach.angle = 0
+dunepar: Read parameter wind.fraction = 1
+dunepar: Using default parameter salt.d = 0.00025
+dunepar: Using default parameter fluid_viscosity = 1.8e-05
+dunepar: Using default parameter salt.g = 9.8
+dunepar: Using default parameter Bagnold-shields_parameter = 0.11
+duneglobals constructor: u*ft = 0.25318m/s has been calculated from Bagnold-Shields Parameter
+duneglobals constructor: u*t = 0.202544m/s (= ratio_u*t/u*ft multiplied by u*ft)
+dunepar: Using default parameter salt.Z/zm = 0
+dunepar: Using default parameter salt.D = 0
+dunepar: Using default parameter beta = 0.00057
+dunepar: Using default parameter gamma = 0.1
+duneglobals constructor: z0 = 1.25e-05
+duneglobals constructor: zm = 0.0151662
+duneglobals constructor: z1 = 0.00383524
+duneglobals constructor: alpha = 0.410666
+duneglobals constructor: Cd = 2.70358
+duneglobals constructor: M = 1
+dunepar: Using default parameter check.error = 0
+dunepar: Using default parameter high.precision = 0
+dunepar: Read parameter save.dir = ./DATA
+dunepar: Read parameter save.x-line = 0
+dunepar: Read parameter save.x-line = 0
+dunepar: Using default parameter sepbubble = parabolic
+dunepar: Using default parameter sepbub.parabolic = 0
+dunepar: Using default parameter sepbub.smooth = 6
+dunepar: Using default parameter bubble.length = 0
+dunepar: Using default parameter sepbub.slope = 0.2
+dunepar: Read parameter calc.x_periodic = 0
+dunepar: Read parameter calc.y_periodic = 1
+dunepar: Using default parameter sep.angle = 20
+dunepar: Using default parameter sepbub.tau = 0.05
+dunepar: Using default parameter hlr.tau_y = 1
+dunepar: Using default parameter shore.correct.profile = 1
+dunepar: Using default parameter shore.sealevel = 0
+dunepar: Read parameter veget.calc = 1
+dunepar: Read parameter veget.m = 0.16
+dunepar: Read parameter veget.beta = 150
+dunepar: Using default parameter vegetation.sigma = 1.5
+dunepar: Using default parameter veget.rho.max = 1
+!!! RHO_MAX = 1
+!!! CORR_MAX = 14.28
+dunepar: Using default parameter hlr.cut_k = 2
+dunepar: Read parameter wind = const
+dunepar: Read parameter constwind.u = 0.21
+dunepar: Using default parameter constwind.direction = 0
+dunepar: Read parameter influx = const
+dunepar: Read parameter q_in = 0
+dunepar: Using default parameter y_range = 1e+07
+dunepar: Read parameter save.x-line = 0
+dunepar: Using default parameter calc.shore = 0
+dunepar: Read parameter beach.tau_t_L = 0.05
+dunepar: Using default parameter avalanche = flow
+dunepar: Using default parameter aval.new.maxiter = 20
+dunepar: Using default parameter aval.new.relax = 0.9
+dunepar: Read parameter save.x-line = 0
+dunepar: Read parameter save.x-line = 0
+dunepar: Read parameter veget.xmin = 55
+dunepar: Using default parameter veget.zmin = 0
+dunepar: Read parameter veget.Tveg = 0.75
+grass constructor: Tveg = 0.75
+dunepar: Using default parameter veget.0 = 0
+dunepar: Using default parameter veget.sensitivity = 1
+dunepar: Using default parameter veget.Hveg = 1
+dunepar: Using default parameter veget.spec.1 = 1
+dunepar: Using default parameter veget.spec.2 = 0
+dunepar: Using default parameter veget.lateralgrowth = 0
+dunepar: Read parameter veget.Vlateral.factor = 7.8
+dunepar: Using default parameter veget.rho.max = 1
+dunepar: Using default parameter veget.rho.min = 0
+dunepar: Using default parameter veget.survive = 0
+dunepar: Using default parameter veget.zmin = 0
+dunepar: Read parameter save.dir = ./DATA
+dunepar: Read parameter dt_max = 1210
+dunepar: Read parameter calc.shift_back = 0
+dunepar: Using default parameter shift_back.cm0 = 0
+dunepar: Using default parameter shift_back.cmT = 1
+dunepar: Using default parameter calc.volume.correction = 1
+dunepar: Using default parameter calc.analyze = 1
+dunepar: Read parameter veget.calc = 1
+dunepar: Read parameter wind.fraction = 1
+dunepar: Using default parameter calc.shore = 0
+dunepar: Read parameter Init-Surf = init_h
+dunepar: Read parameter init_h.file = April.dat
+dunepar: Using default parameter init_h.file_aux = ABC
+dunepar: Using default parameter init_h.x-line = 0
+dunepar: Using default parameter init_h.zscale = 1
+dunepar: Using default parameter init_h.plain.height = 0
+dunepar: Read parameter veget.Init-Surf = init_h
+dunepar: Read parameter veget.init_h.file = AprilV.dat
+dunepar: Read parameter veget.init_h.file_aux = AprilVy.dat
+dunepar: Using default parameter veget.init_h.x-line = 0
+dunepar: Using default parameter veget.init_h.zscale = 1
+dunepar: Using default parameter veget.init_h.plain.height = 0
+!!!Flux0 = 6.76277, 0.000353812
+!!!ls = 14.0333
+!!! shoreline = 0
+dunepar: Read parameter Nt = 200
+dunepar: Read parameter Nt0 = 0
+dunepar: Read parameter save.every = 2
+dune_evol_3d::step_implementation: step 1: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 3 iterations, final slope 0.64747
+Main program: step 1 done, time is 1210 seconds
+dune_evol_3d::step_implementation: step 2: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.654063
+Main program: step 2 done, time is 2420 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 3: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.663175
+Main program: step 3 done, time is 3630 seconds
+dune_evol_3d::step_implementation: step 4: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.672625
+Main program: step 4 done, time is 4840 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 5: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.64747
+Main program: step 5 done, time is 6050 seconds
+dune_evol_3d::step_implementation: step 6: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662461
+Main program: step 6 done, time is 7260 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 7: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 7 done, time is 8470 seconds
+dune_evol_3d::step_implementation: step 8: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.672569
+Main program: step 8 done, time is 9680 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 9: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 9 done, time is 10890 seconds
+dune_evol_3d::step_implementation: step 10: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.654521
+Main program: step 10 done, time is 12100 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 11: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 11 done, time is 13310 seconds
+dune_evol_3d::step_implementation: step 12: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.655327
+Main program: step 12 done, time is 14520 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 13: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 13 done, time is 15730 seconds
+dune_evol_3d::step_implementation: step 14: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.661473
+Main program: step 14 done, time is 16940 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 15: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649309
+Main program: step 15 done, time is 18150 seconds
+dune_evol_3d::step_implementation: step 16: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 16 done, time is 19360 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 17: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.66569
+Main program: step 17 done, time is 20570 seconds
+dune_evol_3d::step_implementation: step 18: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 18 done, time is 21780 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 19: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.667695
+Main program: step 19 done, time is 22990 seconds
+dune_evol_3d::step_implementation: step 20: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649113
+Main program: step 20 done, time is 24200 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 21: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662723
+Main program: step 21 done, time is 25410 seconds
+dune_evol_3d::step_implementation: step 22: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649383
+Main program: step 22 done, time is 26620 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 23: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662779
+Main program: step 23 done, time is 27830 seconds
+dune_evol_3d::step_implementation: step 24: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649374
+Main program: step 24 done, time is 29040 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 25: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.6553
+Main program: step 25 done, time is 30250 seconds
+dune_evol_3d::step_implementation: step 26: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 26 done, time is 31460 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 27: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.665318
+Main program: step 27 done, time is 32670 seconds
+dune_evol_3d::step_implementation: step 28: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.647549
+Main program: step 28 done, time is 33880 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 29: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.656995
+Main program: step 29 done, time is 35090 seconds
+dune_evol_3d::step_implementation: step 30: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.66988
+Main program: step 30 done, time is 36300 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 31: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.647967
+Main program: step 31 done, time is 37510 seconds
+dune_evol_3d::step_implementation: step 32: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.650956
+Main program: step 32 done, time is 38720 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 33: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.668479
+Main program: step 33 done, time is 39930 seconds
+dune_evol_3d::step_implementation: step 34: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649156
+Main program: step 34 done, time is 41140 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 35: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.671032
+Main program: step 35 done, time is 42350 seconds
+dune_evol_3d::step_implementation: step 36: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.64747
+Main program: step 36 done, time is 43560 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 37: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.66173
+Main program: step 37 done, time is 44770 seconds
+dune_evol_3d::step_implementation: step 38: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.648931
+Main program: step 38 done, time is 45980 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 39: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662046
+Main program: step 39 done, time is 47190 seconds
+dune_evol_3d::step_implementation: step 40: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649043
+Main program: step 40 done, time is 48400 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 41: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.659005
+Main program: step 41 done, time is 49610 seconds
+dune_evol_3d::step_implementation: step 42: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649313
+Main program: step 42 done, time is 50820 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 43: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.672642
+Main program: step 43 done, time is 52030 seconds
+dune_evol_3d::step_implementation: step 44: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.648584
+Main program: step 44 done, time is 53240 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 45: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.661154
+Main program: step 45 done, time is 54450 seconds
+dune_evol_3d::step_implementation: step 46: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.64747
+Main program: step 46 done, time is 55660 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 47: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.660948
+Main program: step 47 done, time is 56870 seconds
+dune_evol_3d::step_implementation: step 48: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64853
+Main program: step 48 done, time is 58080 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 49: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.668394
+Main program: step 49 done, time is 59290 seconds
+dune_evol_3d::step_implementation: step 50: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648874
+Main program: step 50 done, time is 60500 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 51: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.668602
+Main program: step 51 done, time is 61710 seconds
+dune_evol_3d::step_implementation: step 52: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649097
+Main program: step 52 done, time is 62920 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 53: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.65684
+Main program: step 53 done, time is 64130 seconds
+dune_evol_3d::step_implementation: step 54: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.647759
+Main program: step 54 done, time is 65340 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 55: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.667172
+Main program: step 55 done, time is 66550 seconds
+dune_evol_3d::step_implementation: step 56: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 56 done, time is 67760 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 57: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.663972
+Main program: step 57 done, time is 68970 seconds
+dune_evol_3d::step_implementation: step 58: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 58 done, time is 70180 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 59: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.650994
+Main program: step 59 done, time is 71390 seconds
+dune_evol_3d::step_implementation: step 60: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.667489
+Main program: step 60 done, time is 72600 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 61: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.648031
+Main program: step 61 done, time is 73810 seconds
+dune_evol_3d::step_implementation: step 62: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.659588
+Main program: step 62 done, time is 75020 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 63: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.670877
+Main program: step 63 done, time is 76230 seconds
+dune_evol_3d::step_implementation: step 64: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648621
+Main program: step 64 done, time is 77440 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 65: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662633
+Main program: step 65 done, time is 78650 seconds
+dune_evol_3d::step_implementation: step 66: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649088
+Main program: step 66 done, time is 79860 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 67: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.669442
+Main program: step 67 done, time is 81070 seconds
+dune_evol_3d::step_implementation: step 68: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648728
+Main program: step 68 done, time is 82280 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 69: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.665388
+Main program: step 69 done, time is 83490 seconds
+dune_evol_3d::step_implementation: step 70: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649176
+Main program: step 70 done, time is 84700 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 71: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.658366
+Main program: step 71 done, time is 85910 seconds
+dune_evol_3d::step_implementation: step 72: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648929
+Main program: step 72 done, time is 87120 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 73: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.672336
+Main program: step 73 done, time is 88330 seconds
+dune_evol_3d::step_implementation: step 74: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649377
+Main program: step 74 done, time is 89540 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 75: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.651224
+Main program: step 75 done, time is 90750 seconds
+dune_evol_3d::step_implementation: step 76: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.667386
+Main program: step 76 done, time is 91960 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 77: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649302
+Main program: step 77 done, time is 93170 seconds
+dune_evol_3d::step_implementation: step 78: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662308
+Main program: step 78 done, time is 94380 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 79: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649149
+Main program: step 79 done, time is 95590 seconds
+dune_evol_3d::step_implementation: step 80: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.659625
+Main program: step 80 done, time is 96800 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 81: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.672359
+Main program: step 81 done, time is 98010 seconds
+dune_evol_3d::step_implementation: step 82: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.647803
+Main program: step 82 done, time is 99220 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 83: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.666248
+Main program: step 83 done, time is 100430 seconds
+dune_evol_3d::step_implementation: step 84: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.647803
+Main program: step 84 done, time is 101640 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 85: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.651292
+Main program: step 85 done, time is 102850 seconds
+dune_evol_3d::step_implementation: step 86: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.667689
+Main program: step 86 done, time is 104060 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 87: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64928
+Main program: step 87 done, time is 105270 seconds
+dune_evol_3d::step_implementation: step 88: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.664224
+Main program: step 88 done, time is 106480 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 89: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648989
+Main program: step 89 done, time is 107690 seconds
+dune_evol_3d::step_implementation: step 90: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.669633
+Main program: step 90 done, time is 108900 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 91: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.647943
+Main program: step 91 done, time is 110110 seconds
+dune_evol_3d::step_implementation: step 92: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.651842
+Main program: step 92 done, time is 111320 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 93: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.668379
+Main program: step 93 done, time is 112530 seconds
+dune_evol_3d::step_implementation: step 94: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649209
+Main program: step 94 done, time is 113740 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 95: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.661605
+Main program: step 95 done, time is 114950 seconds
+dune_evol_3d::step_implementation: step 96: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.674261
+Main program: step 96 done, time is 116160 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 97: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649202
+Main program: step 97 done, time is 117370 seconds
+dune_evol_3d::step_implementation: step 98: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.667573
+Main program: step 98 done, time is 118580 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 99: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.647851
+Main program: step 99 done, time is 119790 seconds
+dune_evol_3d::step_implementation: step 100: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.659685
+Main program: step 100 done, time is 121000 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 101: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648684
+Main program: step 101 done, time is 122210 seconds
+dune_evol_3d::step_implementation: step 102: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.665032
+Main program: step 102 done, time is 123420 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 103: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649251
+Main program: step 103 done, time is 124630 seconds
+dune_evol_3d::step_implementation: step 104: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.670641
+Main program: step 104 done, time is 125840 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 105: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.648805
+Main program: step 105 done, time is 127050 seconds
+dune_evol_3d::step_implementation: step 106: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.658499
+Main program: step 106 done, time is 128260 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 107: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648891
+Main program: step 107 done, time is 129470 seconds
+dune_evol_3d::step_implementation: step 108: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.666458
+Main program: step 108 done, time is 130680 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 109: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649282
+Main program: step 109 done, time is 131890 seconds
+dune_evol_3d::step_implementation: step 110: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.654612
+Main program: step 110 done, time is 133100 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 111: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.671932
+Main program: step 111 done, time is 134310 seconds
+dune_evol_3d::step_implementation: step 112: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.647662
+Main program: step 112 done, time is 135520 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 113: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.655851
+Main program: step 113 done, time is 136730 seconds
+dune_evol_3d::step_implementation: step 114: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649063
+Main program: step 114 done, time is 137940 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 115: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.664072
+Main program: step 115 done, time is 139150 seconds
+dune_evol_3d::step_implementation: step 116: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648219
+Main program: step 116 done, time is 140360 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 117: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.655766
+Main program: step 117 done, time is 141570 seconds
+dune_evol_3d::step_implementation: step 118: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648219
+Main program: step 118 done, time is 142780 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 119: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.665963
+Main program: step 119 done, time is 143990 seconds
+dune_evol_3d::step_implementation: step 120: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649068
+Main program: step 120 done, time is 145200 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 121: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.654334
+Main program: step 121 done, time is 146410 seconds
+dune_evol_3d::step_implementation: step 122: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.663061
+Main program: step 122 done, time is 147620 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 123: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 4 iterations, final slope 0.648701
+Main program: step 123 done, time is 148830 seconds
+dune_evol_3d::step_implementation: step 124: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.660803
+Main program: step 124 done, time is 150040 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 125: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.673169
+Main program: step 125 done, time is 151250 seconds
+dune_evol_3d::step_implementation: step 126: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.648038
+Main program: step 126 done, time is 152460 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 127: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.672235
+Main program: step 127 done, time is 153670 seconds
+dune_evol_3d::step_implementation: step 128: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648718
+Main program: step 128 done, time is 154880 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 129: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.652651
+Main program: step 129 done, time is 156090 seconds
+dune_evol_3d::step_implementation: step 130: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 130 done, time is 157300 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 131: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.659017
+Main program: step 131 done, time is 158510 seconds
+dune_evol_3d::step_implementation: step 132: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648705
+Main program: step 132 done, time is 159720 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 133: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.668926
+Main program: step 133 done, time is 160930 seconds
+dune_evol_3d::step_implementation: step 134: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648801
+Main program: step 134 done, time is 162140 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 135: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.66273
+Main program: step 135 done, time is 163350 seconds
+dune_evol_3d::step_implementation: step 136: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64884
+Main program: step 136 done, time is 164560 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 137: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.672935
+Main program: step 137 done, time is 165770 seconds
+dune_evol_3d::step_implementation: step 138: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.647719
+Main program: step 138 done, time is 166980 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 139: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662841
+Main program: step 139 done, time is 168190 seconds
+dune_evol_3d::step_implementation: step 140: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 140 done, time is 169400 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 141: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.664836
+Main program: step 141 done, time is 170610 seconds
+dune_evol_3d::step_implementation: step 142: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.64747
+Main program: step 142 done, time is 171820 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 143: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.659527
+Main program: step 143 done, time is 173030 seconds
+dune_evol_3d::step_implementation: step 144: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64747
+Main program: step 144 done, time is 174240 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 145: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.669219
+Main program: step 145 done, time is 175450 seconds
+dune_evol_3d::step_implementation: step 146: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649147
+Main program: step 146 done, time is 176660 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 147: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.655495
+Main program: step 147 done, time is 177870 seconds
+dune_evol_3d::step_implementation: step 148: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64922
+Main program: step 148 done, time is 179080 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 149: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.664891
+Main program: step 149 done, time is 180290 seconds
+dune_evol_3d::step_implementation: step 150: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649104
+Main program: step 150 done, time is 181500 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 151: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.656886
+Main program: step 151 done, time is 182710 seconds
+dune_evol_3d::step_implementation: step 152: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.673026
+Main program: step 152 done, time is 183920 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 153: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648436
+Main program: step 153 done, time is 185130 seconds
+dune_evol_3d::step_implementation: step 154: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.651034
+Main program: step 154 done, time is 186340 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 155: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.655251
+Main program: step 155 done, time is 187550 seconds
+dune_evol_3d::step_implementation: step 156: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649217
+Main program: step 156 done, time is 188760 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 157: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.673374
+Main program: step 157 done, time is 189970 seconds
+dune_evol_3d::step_implementation: step 158: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648306
+Main program: step 158 done, time is 191180 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 159: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.671796
+Main program: step 159 done, time is 192390 seconds
+dune_evol_3d::step_implementation: step 160: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.648534
+Main program: step 160 done, time is 193600 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 161: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.656737
+Main program: step 161 done, time is 194810 seconds
+dune_evol_3d::step_implementation: step 162: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.674311
+Main program: step 162 done, time is 196020 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 163: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.647796
+Main program: step 163 done, time is 197230 seconds
+dune_evol_3d::step_implementation: step 164: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.669666
+Main program: step 164 done, time is 198440 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 165: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649294
+Main program: step 165 done, time is 199650 seconds
+dune_evol_3d::step_implementation: step 166: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662441
+Main program: step 166 done, time is 200860 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 167: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64936
+Main program: step 167 done, time is 202070 seconds
+dune_evol_3d::step_implementation: step 168: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.654825
+Main program: step 168 done, time is 203280 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 169: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649383
+Main program: step 169 done, time is 204490 seconds
+dune_evol_3d::step_implementation: step 170: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.665187
+Main program: step 170 done, time is 205700 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 171: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.648425
+Main program: step 171 done, time is 206910 seconds
+dune_evol_3d::step_implementation: step 172: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.655698
+Main program: step 172 done, time is 208120 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 173: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.64926
+Main program: step 173 done, time is 209330 seconds
+dune_evol_3d::step_implementation: step 174: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.668341
+Main program: step 174 done, time is 210540 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 175: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 3 iterations, final slope 0.649055
+Main program: step 175 done, time is 211750 seconds
+dune_evol_3d::step_implementation: step 176: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.658041
+Main program: step 176 done, time is 212960 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 177: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649055
+Main program: step 177 done, time is 214170 seconds
+dune_evol_3d::step_implementation: step 178: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.658854
+Main program: step 178 done, time is 215380 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 179: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649126
+Main program: step 179 done, time is 216590 seconds
+dune_evol_3d::step_implementation: step 180: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662318
+Main program: step 180 done, time is 217800 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 181: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649055
+Main program: step 181 done, time is 219010 seconds
+dune_evol_3d::step_implementation: step 182: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.6564
+Main program: step 182 done, time is 220220 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 183: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.674015
+Main program: step 183 done, time is 221430 seconds
+dune_evol_3d::step_implementation: step 184: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649055
+Main program: step 184 done, time is 222640 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 185: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.656548
+Main program: step 185 done, time is 223850 seconds
+dune_evol_3d::step_implementation: step 186: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649269
+Main program: step 186 done, time is 225060 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 187: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.67124
+Main program: step 187 done, time is 226270 seconds
+dune_evol_3d::step_implementation: step 188: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649055
+Main program: step 188 done, time is 227480 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 189: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.658449
+Main program: step 189 done, time is 228690 seconds
+dune_evol_3d::step_implementation: step 190: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649055
+Main program: step 190 done, time is 229900 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 191: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.66554
+Main program: step 191 done, time is 231110 seconds
+dune_evol_3d::step_implementation: step 192: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649055
+Main program: step 192 done, time is 232320 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 193: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.654726
+Main program: step 193 done, time is 233530 seconds
+dune_evol_3d::step_implementation: step 194: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.665015
+Main program: step 194 done, time is 234740 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 195: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 2 iterations, final slope 0.649055
+Main program: step 195 done, time is 235950 seconds
+dune_evol_3d::step_implementation: step 196: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.664685
+Main program: step 196 done, time is 237160 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 197: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649055
+Main program: step 197 done, time is 238370 seconds
+dune_evol_3d::step_implementation: step 198: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.662174
+Main program: step 198 done, time is 239580 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
+dune_evol_3d::step_implementation: step 199: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: 1 iterations, final slope 0.649055
+Main program: step 199 done, time is 240790 seconds
+dune_evol_3d::step_implementation: step 200: wind direction 0 deg., u* 0.21 m/s
+CIterAvalNew::calc: no avalanche: maximal slope 0.656627
+Main program: step 200 done, time is 242000 seconds
+dunedata::save_all_data: saving discretised functions (grid spacing 1 metres) ... done
