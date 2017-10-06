@@ -1,6 +1,6 @@
 # Genetic Algorithm — CDM tuning routine
 
-This bunch of code is used to tune the Coastal Dune Model — specifically CDM-L, avaialble here:  https://github.com/ebgoldstein/Coastal-Dune-Model-Lateral, which is a variant of CDM v2.0 (https://github.com/csdms-contrib/Coastal-Dune-Model). Nick Cohn wrote the first version of the 'cdm_params.m' file in the CDM folder. The calibration routine uses the genetic algorithm routine supplied in Matlab through the Global Optimization toolbox (https://www.mathworks.com/products/global-optimization.html). 
+This code is used to tune the Coastal Dune Model — specifically CDM-L, avaialble here:  https://github.com/ebgoldstein/Coastal-Dune-Model-Lateral, which is a variant of CDM v2.0 (https://github.com/csdms-contrib/Coastal-Dune-Model). Nick Cohn wrote the first version of the 'cdm_params.m' file in the CDM folder. The calibration routine uses the genetic algorithm routine supplied in Matlab through the Global Optimization toolbox (https://www.mathworks.com/products/global-optimization.html). 
 
 All Genetic Algorithms require a fitness function. The fitness funciton used here is a displacement based error metric presented by Bosboom and Reniers (https://www.adv-geosci.net/39/37/2014/adgeo-39-37-2014.html), which utilizes the algorithm of Kroon and Slump (2009) available on the Mathworks page (https://www.mathworks.com/matlabcentral/fileexchange/21451-multimodality-non-rigid-demon-algorithm-image-registration)
 
@@ -19,4 +19,4 @@ And the data files are here:
  
 The technique capture technique is described here: https://dx.doi.org/10.7287/peerj.preprints.1444v1 
  
-If you donwload the files and process them (using the included script SfMdense2topogrid.m) then you need to rename the dense cloud files as  FF1dense.txt, FF2dense.txt, FF3dense.txt, respectively.
+If you download the files and process them (using the included script SfMdense2topogrid.m) then you need to rename the dense cloud files as  FF1dense.txt, FF2dense.txt, FF3dense.txt, respectively.
