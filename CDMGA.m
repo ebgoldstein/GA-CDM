@@ -38,6 +38,7 @@ UB=bounds(:,2);
 POPSIZE=10;
 MAXGEN=10;
 
+%Options guidance — https://www.mathworks.com/help/gads/gaoptimset.html
 options = optimoptions('ga');
 options = optimoptions(options,'PopulationSize', POPSIZE);
 options = optimoptions(options,'MaxGenerations', MAXGEN);
